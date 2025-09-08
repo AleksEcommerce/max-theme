@@ -1,0 +1,39 @@
+{{ 'ctr-custom-section.css' | asset_url | stylesheet_tag }}
+
+<div class="ctr-custom-section color-{{ section.settings.color_scheme }}">
+  {% content_for 'blocks' %}
+</div>
+
+{% schema %}
+{
+  "name": "CTR Custom section",
+  "blocks": [{ "type": "@theme" }, { "type": "@app" }], 
+  "settings": [ 
+
+  ],
+  "presets": [
+    {
+      "name": "CTR Custom section",
+      "blocks": [
+        {
+          "type": "ctr-group",
+          "blocks": [
+            {
+              "type": "ctr-text",
+              "settings": {
+                "text": "<h1>Image with text</h1>"
+              }
+            },
+            {
+              "type": "ctr-text",
+              "settings": {
+                "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

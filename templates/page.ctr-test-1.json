@@ -1,0 +1,72 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+        "heading": "404 Page Not Found",
+        "text": "The page you are looking for does not exist.",
+        "button_label": "Go to Home"
+      }
+    },
+    "ctr_custom_section_miTkd4": {
+      "type": "ctr-custom-section",
+      "blocks": {
+        "ctr_group_xK9fiT": {
+          "type": "ctr-group",
+          "settings": {},
+          "blocks": {
+            "ctr_text_tJqjXU": {
+              "type": "ctr-text",
+              "settings": {
+                "text": "<h1>Image with text</h1>",
+                "font_size_desktop": 16,
+                "font_size_mobile": 14,
+                "line_height": 1,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "text_color": "#1C4C62"
+              },
+              "blocks": {}
+            },
+            "ctr_text_YLAbDj": {
+              "type": "ctr-text",
+              "settings": {
+                "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+                "font_size_desktop": 16,
+                "font_size_mobile": 14,
+                "line_height": 1,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "text_color": "#1C4C62"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "ctr_text_tJqjXU",
+            "ctr_text_YLAbDj"
+          ]
+        }
+      },
+      "block_order": [
+        "ctr_group_xK9fiT"
+      ],
+      "name": "CTR Custom section",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "ctr_custom_section_miTkd4"
+  ]
+}
